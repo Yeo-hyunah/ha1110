@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>저작권교육 인포그래픽</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터랙티브 저작권 교육 지도안 인포그래픽</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Noto Sans KR Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <header class="bg-white/90 backdrop-blur-sm sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <h1 class="text-xl md:text-2xl font-bold text-teal-600">🎓 저작권 교육 인포그래픽</h1>
+                <nav class="hidden md:flex space-x-6 text-base">
+                    <a href="#stage1" class="nav-link pb-1 border-b-2 border-transparent transition-colors duration-300 hover:text-teal-500">1단계: 개념 알기</a>
+                    <a href="#stage2" class="nav-link pb-1 border-b-2 border-transparent transition-colors duration-300 hover:text-teal-500">2단계: 법과 규칙</a>
+                    <a href="#stage3" class="nav-link pb-1 border-b-2 border-transparent transition-colors duration-300 hover:text-teal-500">3단계: 실천하기</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section class="text-center mb-16">
+            <h2 class="text-4xl font-black text-slate-800 mb-4">한눈에 보는 저작권 수업 여정</h2>
+            <p class="max-w-3xl mx-auto text-lg text-slate-600">
+                중학교 특수학급 학생들을 위한 6차시 저작권 수업 지도안입니다. 각 단계를 따라가며 학생들이 저작권의 중요성을 배우고, 창작의 가치를 존중하는 태도를 기를 수 있도록 안내합니다.
+            </p>
+        </section>
+
+        <div id="stage1" class="pt-20 -mt-16 mb-16">
+            <div class="text-center mb-10">
+                <span class="bg-teal-100 text-teal-800 text-sm font-bold px-4 py-1 rounded-full">STAGE 1</span>
+                <h3 class="text-3xl font-bold text-slate-800 mt-2">저작권, 첫걸음 떼기: 개념 알기</h3>
+                <p class="text-slate-600 mt-2 max-w-2xl mx-auto">저작권의 세 가지 핵심 요소를 이해하고, '만든 사람'의 권리가 왜 중요한지 배웁니다.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card text-center">
+                    <div class="text-5xl mb-4">🎨</div>
+                    <h4 class="text-2xl font-bold text-slate-800 mb-2">저작물</h4>
+                    <p>사람의 생각이나 감정을 표현한 창작물 (그림, 글, 노래 등)</p>
+                </div>
+                <div class="card text-center">
+                    <div class="text-5xl mb-4">🧑‍🎨</div>
+                    <h4 class="text-2xl font-bold text-slate-800 mb-2">저작자</h4>
+                    <p>저작물을 직접 만든 사람 (화가, 작가, 작곡가 등)</p>
+                </div>
+                <div class="card text-center">
+                    <div class="text-5xl mb-4">🛡️</div>
+                    <h4 class="text-2xl font-bold text-slate-800 mb-2">저작권</h4>
+                    <p>저작자가 자신의 작품을 보호받는 특별한 권리</p>
+                </div>
+            </div>
+             <div class="mt-8 bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
+                <p class="font-bold text-amber-800">핵심 활동: '내 작품 vs 남의 작품'</p>
+                <p class="text-slate-600 mt-1">학생들이 직접 간단한 창작 활동을 통해 '저작자'가 되어보고, 자신의 저작물이 소중함을 느끼게 하는 것이 1단계의 핵심입니다. "만약 친구가 내 그림을 마음대로 가져가면 어떨까?" 라는 질문을 통해 저작권 보호의 필요성을 자연스럽게 이끌어냅니다.</p>
+            </div>
+        </div>
+        
+        <div id="stage2" class="pt-20 -mt-16 mb-16">
+            <div class="text-center mb-10">
+                <span class="bg-amber-100 text-amber-800 text-sm font-bold px-4 py-1 rounded-full">STAGE 2</span>
+                <h3 class="text-3xl font-bold text-slate-800 mt-2">지켜야 할 약속: 법과 규칙</h3>
+                <p class="text-slate-600 mt-2 max-w-2xl mx-auto">저작권법의 필요성을 이해하고, 올바른 저작물 이용 방법을 배웁니다.</p>
+            </div>
+            <div class="card grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-800 mb-4">활동: 저작권 O/X 퀴즈</h4>
+                    <p class="text-slate-600 mb-6">다양한 상황을 통해 저작권 침해 여부를 판단해 보세요. O 또는 X 버튼을 눌러 정답을 확인 할 수 있습니다.</p>
+                    <div id="quiz-container" class="space-y-4">
+                        <div class="quiz-item border border-slate-200 p-4 rounded-lg">
+                            <p class="font-semibold mb-2">Q1. 좋아하는 가수의 노래 파일을 몰래 복사해서 친구에게 주었어요.</p>
+                            <div class="flex space-x-3">
+                                <button data-answer="X" class="quiz-btn flex-1 py-2 rounded-md bg-teal-200 hover:bg-teal-300 font-bold text-teal-800 transition-transform hover:scale-105">O</button>
+                                <button data-answer="O" class="quiz-btn flex-1 py-2 rounded-md bg-amber-200 hover:bg-amber-300 font-bold text-amber-800 transition-transform hover:scale-105">X</button>
+                            </div>
+                            <p class="quiz-explanation hidden mt-2 text-sm text-red-600 font-bold">❌ 정답은 X! 허락 없는 복사와 공유는 불법이에요.</p>
+                        </div>
+                        <div class="quiz-item border border-slate-200 p-4 rounded-lg">
+                            <p class="font-semibold mb-2">Q2. 숙제 발표 자료에 인터넷 사진을 쓰고, 출처를 남겼어요.</p>
+                             <div class="flex space-x-3">
+                                <button data-answer="O" class="quiz-btn flex-1 py-2 rounded-md bg-teal-200 hover:bg-teal-300 font-bold text-teal-800 transition-transform hover:scale-105">O</button>
+                                <button data-answer="X" class="quiz-btn flex-1 py-2 rounded-md bg-amber-200 hover:bg-amber-300 font-bold text-amber-800 transition-transform hover:scale-105">X</button>
+                            </div>
+                            <p class="quiz-explanation hidden mt-2 text-sm text-green-600 font-bold">⭕ 정답은 O! 교육 목적이고 출처를 밝혔다면 '공정한 이용'에 해당될 수 있어요.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h4 class="text-2xl font-bold text-slate-800 mb-4">꼭 기억해야 할 3가지!</h4>
+                    <ul class="space-y-4 text-left">
+                        <li class="flex items-start">
+                            <span class="text-amber-500 text-2xl mr-3">①</span>
+                            <div>
+                                <h5 class="font-bold">허락받기</h5>
+                                <p class="text-sm text-slate-600">다른 사람의 저작물을 사용하기 전에는 먼저 허락을 구하는 것이 원칙이에요.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                             <span class="text-amber-500 text-2xl mr-3">②</span>
+                            <div>
+                                <h5 class="font-bold">출처 밝히기</h5>
+                                <p class="text-sm text-slate-600">누가 만들었는지(출처)를 정확하게 표시하는 것은 기본적인 예의예요.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                             <span class="text-amber-500 text-2xl mr-3">③</span>
+                            <div>
+                                <h5 class="font-bold">공정한 이용</h5>
+                                <p class="text-sm text-slate-600">학교 수업이나 개인적인 공부를 위한 사용은 일부 허용될 수 있어요.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="stage3" class="pt-20 -mt-16 mb-8">
+            <div class="text-center mb-10">
+                 <span class="bg-sky-100 text-sky-800 text-sm font-bold px-4 py-1 rounded-full">STAGE 3</span>
+                <h3 class="text-3xl font-bold text-slate-800 mt-2">나도 저작권 지킴이: 실천하기</h3>
+                <p class="text-slate-600 mt-2 max-w-2xl mx-auto">배운 내용을 바탕으로 올바른 이용 습관을 다지고, 창작 활동을 통해 저작권을 내면화합니다.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+                <div class="card lg:col-span-2">
+                    <h4 class="text-2xl font-bold text-slate-800 mb-4">활동: 저작권 지킴이 선언문 만들기</h4>
+                    <p class="text-slate-600 mb-6">아래 항목들을 다짐하며 클릭하여 체크리스트를 완성해 보세요. 자신만의 선언문을 만들고 발표하며 저작권 보호 의지를 다집니다.</p>
+                    <div id="pledge-list" class="space-y-3">
+                        <div class="pledge-item flex items-center bg-slate-100 p-3 rounded-lg cursor-pointer transition-colors hover:bg-teal-50">
+                            <span class="check-icon w-6 h-6 rounded-full border-2 border-slate-300 mr-3 flex-shrink-0"></span>
+                            <span>불법으로 영화나 음악을 다운로드하지 않겠습니다.</span>
+                        </div>
+                        <div class="pledge-item flex items-center bg-slate-100 p-3 rounded-lg cursor-pointer transition-colors hover:bg-teal-50">
+                            <span class="check-icon w-6 h-6 rounded-full border-2 border-slate-300 mr-3 flex-shrink-0"></span>
+                            <span>다른 사람의 글이나 그림을 베끼지 않겠습니다.</span>
+                        </div>
+                        <div class="pledge-item flex items-center bg-slate-100 p-3 rounded-lg cursor-pointer transition-colors hover:bg-teal-50">
+                            <span class="check-icon w-6 h-6 rounded-full border-2 border-slate-300 mr-3 flex-shrink-0"></span>
+                            <span>인터넷에 글이나 사진을 올릴 때 출처를 꼭 밝히겠습니다.</span>
+                        </div>
+                        <div class="pledge-item flex items-center bg-slate-100 p-3 rounded-lg cursor-pointer transition-colors hover:bg-teal-50">
+                            <span class="check-icon w-6 h-6 rounded-full border-2 border-slate-300 mr-3 flex-shrink-0"></span>
+                            <span>내가 만든 소중한 작품에 내 이름과 © 표시를 하겠습니다.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <h4 class="text-2xl font-bold text-slate-800 mb-4">학습 여정 요약</h4>
+                    <div class="chart-container">
+                        <canvas id="progressChart"></canvas>
+                    </div>
+                    <p class="text-slate-600 mt-4">3단계 학습을 통해 저작권의 기초부터 실천까지 완전 정복!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-8 bg-slate-800 text-slate-300 mt-12">
+        <p>창작의 가치를 존중하는 문화, 우리가 함께 만들어갑니다.</p>
+    </footer>
+
+    <!-- External JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* Custom Stylesheet for Copyright Infographic SPA */
+
+/* Font Family */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Navigation Active State */
+.nav-active {
+    color: #14B8A6; /* Teal */
+    font-weight: 700;
+    border-color: #14B8A6;
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    border-radius: 0.75rem; /* rounded-lg */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /* shadow-md */
+    padding: 1.5rem; /* p-6 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Chart Container Styling */
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* max-w-[300px] */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    height: 300px; /* h-[300px] */
+    max-height: 300px; /* max-h-[300px] */
+}
